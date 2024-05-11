@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .container{
+        /* @apply text-blue-400 font-sans */
+    }
+}
+@layer components{
+    .card{
+        /* @apply text-blue-400 font-sans */
+    }
+}
+@layer utilities{
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        font-family: "Patrick Hand";
+        font-weight: 400;
+      }
+}
