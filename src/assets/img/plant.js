@@ -16,65 +16,70 @@ const PLANTS = [
         name:"Basil",
         image:p1_img,
         description:"This is Basil Plant",
-        type: ["herb","native"]
+        types: ["herb","native","all"]
     },
     {
         id:2,
         name:"Lemon",
         image:p2_img,
         description:"This is Basil Plant",
-        type: ["native","fruits","tree"]
+        types: ["native","fruits","tree","all"]
     },
     {
         id:3,
         name:"Orange",
         image:p3_img,
         description:"This is Basil Plant",
-        type: ["fruits","tree"]
+        types: ["fruits","tree","all"]
     },
     {
         id:4,
         name:"Apple",
         image:p4_img,
         description:"This is Basil Plant",
-        type: ["fruits","tree"]
+        types: ["fruits","tree","all"]
     },
     {
         id:5,
         name:"Grapes",
         image:p5_img,
         description:"This is Grapes Plant",
-        type: ["fruits","herb"]
+        types: ["fruits","herb","all"]
     },
     {
         id:7,
         name:"Kadamb",
         image:p7_img,
         description:"This is Grapes Plant",
+        types: ["alabhl"]
     },
     {
         id:8,
         name:"Aparajita",
         image:p8_img,
         description:"This is Grapes Plant",
+        types: ["all"]
     },
     {
         id:9,
         name:"Snake Plant",
         image:p9_img,
         description:"This is Grapes Plant",
+        types: ["all"]
     },
     {
         id:10,
         name:"Pin-stripe calathea",
         image:p10_img,
         description:"This is Grapes Plant",
+        types: ["all"]
     },
     {
         id:11,
         name:"Madhu Kamini",
         image:p11_img,
         description:"This is Grapes Plant",
+        types: ["all"]
     }
 ]
 export {p1_img, p2_img, p3_img, p4_img, p5_img, p6_img, p7_img, p8_img, p9_img, p10_img, p11_img, PLANTS}
