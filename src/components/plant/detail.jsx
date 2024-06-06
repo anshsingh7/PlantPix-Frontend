@@ -19,6 +19,7 @@ const Detail = () => {
 
           <div className="w-full h-100 flex flex-col p-5 sm:my-5 sm:mx-5 sm:bg-gray-600 sm:text-white/80 sm:rounded-xl">
             <div>Name : {plant.name}</div>
+            <div>Botanical Name : {plant.botanicalName}</div>
             <div>Description : {plant.description}</div>
             <div className="flex gap-3">
               Types :{" "}

@@ -14,7 +14,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        green: "#ABB589",
+        mainLight: "#bcc4a1",
+        main: "#abb589",
+        mainDark: "#abb677",
+        mainDarker:"#99a36b",
+        extra:"bg-green-200",
         primary: "#f0f2f5",
         tertiary: "#222222",
       },
