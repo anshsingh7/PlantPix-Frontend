@@ -20,14 +20,13 @@ const Plant = () => {
     <section className="bg-primary px-8">
       <div className="max_padd_container py-12 xl:py-20">
         <h2 className="text-2xl font-bold mb-4 text-center">
-          Welcome to the Plant Information Website
+          Explore Plants With Category
         </h2>
         <p className="mb-4 text-center">
           Discover a variety of plants, learn how to take care of them, and
           find the best plants for your needs.
         </p>
         <h3 className="h3 text-2xl text-center font-semibold">{category}</h3>
-        {/* <hr className="h-[3px] md:w-1/2 mx-auto bg-gradient-to-1 from-transparent via-black to-transparent mb-16" /> */}
         <img width="75" height="33" src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2019/07/logo-leaf-new-1.png?fit=75%2C33&amp;ssl=1" className="justify-center attachment-large size-large wp-image-2518 h-[33px] md:w-1/8 mx-auto mb-12" alt="Leaflet"></img>
         <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
           {sortedPlants

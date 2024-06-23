@@ -17,10 +17,10 @@ import p16_img from "./Periwinkle.jpg";
 import p17_img from "./StarMogra.jpg";
 import p18_img from "./Lotus.jpg";
 import p19_img from "./MysoreMalli.jpg";
-import p20_img from "./PhilodendronMamei.jpg";
+import p20_img from "./Cannabis.jpg";
 import p21_img from "./CebuBlue.jpg";
 import p22_img from "./HibiscusVersicolor.jpg";
-import p23_img from "./DaintyPink1.jpg";
+import p23_img from "./DaintyPink.jpg";
 import p24_img from "./DaintyWhite.jpg";
 import p25_img from "./Parijat.jpg";
 import p26_img from "./WaterJasmine.jpg";
@@ -36,9 +36,6 @@ import p35_img from "./RedHibiscus.jpg";
 import p36_img from "./PhilodendronMicans.jpg";
 import p37_img from "./HawaiianSalmon.jpg";
 import p38_img from "./Schizopetalus.jpg";
-// import p39_img from "./Cannabis.jpg";
-import p39_img from "./LemonGrass.jpg";
-import p40_img from "./KanerYellow.jpg";
 
 const PLANTS = [
   {
@@ -195,19 +192,18 @@ const PLANTS = [
   },
   {
     id: 20,
-    name: "Philodendron Mamei",
-    botanicalName: "Catharanthus roseus",
+    name: "Cannabis",
+    botanicalName: "Cannabis indica",
     image: p20_img,
-    description: "This is Scred Indian Lotus Plant",
-    types: ["foliage", "all"],
+    description: "Cannabis, also known as marijuana or weed among other names, is a psychoactive drug from the cannabis plant. Native to Central or South Asia, the cannabis plant has been used as a drug for both recreational and entheogenic purposes and in various traditional medicines for centuries.",
+    types: ["native","herb", "foliage", "all"],
   },
   {
     id: 21,
     name: "Cebu Blue Pothos",
     botanicalName: "Epipremnum Pinnatum",
     image: p21_img,
-    description:
-      "Epipremnum Pinnatum is a tropical aroid species found mostly in Asia. Cebu Blue is a form that was found in the island of Cebu (Philippines). It is also called Blue Cebu or Blue Pothos due to its silvery blue-grey colored leaves. It can grown very well as an indoor plant. This plant has juvenile foliage and mature foliage. During the juvenile phase the leaves are full and there are no cuts or holes. Once it matures the cuts and holes are formed.",
+    description: "Epipremnum Pinnatum is a tropical aroid species found mostly in Asia. Cebu Blue is a form that was found in the island of Cebu (Philippines). It is also called Blue Cebu or Blue Pothos due to its silvery blue-grey colored leaves. It can grown very well as an indoor plant. This plant has juvenile foliage and mature foliage. During the juvenile phase the leaves are full and there are no cuts or holes. Once it matures the cuts and holes are formed.",
     types: ["foliage", "all"],
   },
   {
@@ -295,8 +291,7 @@ const PLANTS = [
     name: "Hibiscus Andersonii",
     botanicalName: "Hibiscus rosa-sinensis 'Andersonii'",
     image: p32_img,
-    description:
-      "Hibiscus Archeri is an old hybrid between Hibiscus rosa sinensis and Hibiscus schizopetalus. Named for A.S. Archer, of Antigua in the Antilles, this striking variety is an upright, fast growing shrub, often grown on its own roots. The 10cm red flowers last for a day.Hardy evergreen rounded shrub 2.5m x 2.5m. Green leaves with maroon/purple edging. Mature leaves can be entirely maroon. Prolific small red flowers from spring to autumn. Prefers sunny location protected from hot winds. Moist well drained soils, summer water may be required during hot dry spells. Ideal hedging shrub.",
+    description: "Hibiscus Archeri is an old hybrid between Hibiscus rosa sinensis and Hibiscus schizopetalus. Named for A.S. Archer, of Antigua in the Antilles, this striking variety is an upright, fast growing shrub, often grown on its own roots. The 10cm red flowers last for a day.Hardy evergreen rounded shrub 2.5m x 2.5m. Green leaves with maroon/purple edging. Mature leaves can be entirely maroon. Prolific small red flowers from spring to autumn. Prefers sunny location protected from hot winds. Moist well drained soils, summer water may be required during hot dry spells. Ideal hedging shrub.",
     types: ["flower", "foliage", "hibiscus", "all"],
   },
   {
@@ -326,9 +321,9 @@ const PLANTS = [
   {
     id: 36,
     name: "Philodendron Micans",
-    botanicalName: "Catharanthus roseus",
+    botanicalName: "Philodendron hederaceum var. hederaceum",
     image: p36_img,
-    description: "This is Scred Indian Lotus Plant",
+    description: "Philodendron Micans has deep green heart-shaped leaves with purple-brown undersides and a velvety texture. It is an evergreen perennial vine known for its unique velvety foliage and hassle-free maintenance.",
     types: ["foliage", "all"],
   },
   {
@@ -341,27 +336,11 @@ const PLANTS = [
   },
   {
     id: 38,
-    name: "Hibiscus Schizopetalus",
+    name: "Coral Hibiscus",
     botanicalName: "Hibiscus Schizopetalus",
     image: p38_img,
-    description: "This is Scred Indian Lotus Plant",
+    description: "Hibiscus schizopetalus, commonly called Coral Hibiscus, Japanese lantern, fringed hibiscus, or fringed rosemallow, is native to tropical areas of eastern Africa. Although it is not native to Japan, its flowers droop from the branching in a manner reminiscent of Japanese lanterns, hence the common name. It typically grows as a narrow, woody, evergreen shrub to 6-9’ tall on upright-arching stems clad with ovate, serrate, dark green leaves (to 5” long). Lantern-like flowers (to 3” across) bloom seasonally on long pedicels. Each flower features recurved, fringed, pink to red petals and a long slender pendent staminal column.",
     types: ["flower", "hibiscus", "all"],
-  },
-  {
-    id: 39,
-    name: "Cannabis",
-    botanicalName: "Cascabela Thevetia",
-    image: p39_img,
-    description: "This is Scred Indian Lotus Plant",
-    types: ["native","herb", "foliage", "all"],
-  },
-  {
-    id: 40,
-    name: "Kaner Yellow",
-    botanicalName: "Cascabela Thevetia",
-    image: p40_img,
-    description: "This is Scred Indian Lotus Plant",
-    types: ["native", "fragrant", "all"],
   },
 ];
 export { PLANTS };

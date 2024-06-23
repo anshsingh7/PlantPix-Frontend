@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PLANTS } from "../../assets/img/plant";
-import Slidebar from "../slidebar";
+import Slidebar from "./slidebar";
 import Item from "../plant/item";
 
 const HomePage = () => {
