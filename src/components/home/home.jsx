@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PLANTS } from "../../assets/img/plant";
-import Sidebar from "../sidebar";
+import Slidebar from "../slidebar";
 import Item from "../plant/item";
 
 const HomePage = () => {
@@ -18,7 +18,7 @@ const HomePage = () => {
               Select a category from the sidebar to explore more about different types of plants.
             </p>
           </div>
-          <Sidebar />
+          <Slidebar />
           <div className="w-full flex flex-col sm:flex-row">
             <div className="w-full px-3 md:5/6">
               <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">

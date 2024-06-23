@@ -1,58 +1,58 @@
 import { NavLink } from 'react-router-dom'
 
-const Sidebar = () => {
+const Slidebar = () => {
   return (
     <div className="flex flex-row overflow-x-auto items-center text-xl sm:text-2xl space-x-4 p-4 m-2">
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
           <NavLink className="category-link" to="/plants/all">
             <label>all</label>
           </NavLink>
         </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
-          <NavLink className="category-link" to="/plants/native">
-            <label>native</label>
-          </NavLink>
-        </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
-          <NavLink className="category-link" to="/plants/herb">
-            <label>herb</label>
-          </NavLink>
-        </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
           <NavLink className="category-link" to="/plants/flower">
             <label>flower</label>
           </NavLink>
         </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
-          <NavLink className="category-link" to="/plants/fruit">
-            <label>fruit</label>
-          </NavLink>
-        </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
-          <NavLink className="category-link" to="/plants/fragrant">
-            <label>fragrant</label>
-          </NavLink>
-        </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
           <NavLink className="category-link" to="/plants/foliage">
             <label>foliage</label>
           </NavLink>
         </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
-          <NavLink className="category-link" to="/plants/tree">
-            <label>tree</label>
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
+          <NavLink className="category-link" to="/plants/fragrant">
+            <label>fragrant</label>
           </NavLink>
         </span>
-        <span className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer">
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
+          <NavLink className="category-link" to="/plants/fruit">
+            <label>fruit</label>
+          </NavLink>
+        </span>
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
+          <NavLink className="category-link" to="/plants/herb">
+            <label>herb</label>
+          </NavLink>
+        </span>
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
           <NavLink className="category-link" to="/plants/hibiscus">
             <label>hibiscus</label>
+          </NavLink>
+        </span>
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
+          <NavLink className="category-link" to="/plants/native">
+            <label>native</label>
+          </NavLink>
+        </span>
+        <span className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer">
+          <NavLink className="category-link" to="/plants/tree">
+            <label>tree</label>
           </NavLink>
         </span>
       </div>
   )
 }
 
-export default Sidebar;
+export default Slidebar;
 
 // src/components/Sidebar.jsx
 
@@ -68,7 +68,7 @@ export default Sidebar;
 
 // const Sidebar = () => {
 //   return (
-//     <div className="h-full p-4 bg-green-100">
+//     <div className="h-full p-4 bg-lime-100">
 //       <ul>
 //         <li className="mb-2">
 //           <Link to="/" className="text-green-700 hover:text-green-900">All</Link>
@@ -114,11 +114,11 @@ export default Sidebar;
 
 // const Sidebar = () => {
 //   return (
-//     <div className="flex overflow-x-auto space-x-4 p-4 bg-green-50">
+//     <div className="flex overflow-x-auto space-x-4 p-4 bg-lime-50">
 //       {categories.map((category) => (
 //         <div
 //           key={category}
-//           className="px-4 py-2 bg-green-200 rounded-lg shadow-lg hover:bg-green-300 transition-colors cursor-pointer"
+//           className="px-4 py-2 bg-lime-100 rounded-lg shadow-lg hover:bg-lime-200 transition-colors cursor-pointer"
 //         >
 //           {category}
 //         </div>

@@ -13,7 +13,8 @@ const Detail = () => {
           key={Math.random() * (1000 - 1) + 1}
           className="flex flex-col sm:flex-row"
         >
-          <div className="w-full h-full sm:w-2/6 sm:h-2/6 sm:my-5 sm:mx-5">
+          {/* <div className="w-full h-full sm:w-2/6 sm:h-2/6 sm:my-5 sm:mx-5"> */}
+          <div className="w-full h-full sm:w-2/6 sm:h-2/6 sm:my-5 sm:mx-5 lg:w-1/2 lg:h-1/2 lg:my-8 lg:mx-8">
             <img src={plant.image} alt={plant.name} className="drop-shadow-xl sm:rounded-xl" />
           </div>
 

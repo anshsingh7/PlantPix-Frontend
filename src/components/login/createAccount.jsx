@@ -29,7 +29,7 @@ const CreateAccount = () => {
       userData.append("password", password);
       userData.append("answer", answer);
 
-      const {data} = await axios.post('http://localhost:8000/api/v1/auth/register', userData);
+      const {data} = await axios.post('https://plantpix-backend.onrender.com/api/v1/auth/register', userData);
       if(data?.success){
         console.log(data.success)
         // navigate('/login');

@@ -1,6 +1,3 @@
-// import {Link} from 'react-router-dom'
-// import {FaSearch} from "react-icons/fa"
-
 const Item = ({ id, name, image, description, botanicalName, types }) => {
   return (
     <div className="rounded-xl overflow-hidden shadow-lg">

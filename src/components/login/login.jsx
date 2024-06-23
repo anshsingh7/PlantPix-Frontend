@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } =await axios.post(
-        "http://localhost:8000/api/v1/auth/login",
+        "https://plantpix-backend.onrender.com/api/v1/auth/login",
         formData
       );
       if (data?.success) {
@@ -118,21 +118,6 @@ const Login = () => {
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-main hover:bg-mainDarker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-main"
               onClick={Login}
             >
-              <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                <svg
-                  className="h-5 w-5 text-main group-hover:text-mainDark"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M11.293 5.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L10 8.586l3.293-3.293a1 1 0 011.414 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </span>
               Sign in
             </button>
           </div>
