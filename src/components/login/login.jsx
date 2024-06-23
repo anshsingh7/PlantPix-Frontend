@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } =await axios.post(
-        "http://localhost:8000/api/v1/auth/login",
+        "https://plantpix-backend.onrender.com/api/v1/auth/login",
         formData
       );
       if (data?.success) {
