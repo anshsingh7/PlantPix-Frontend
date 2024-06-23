@@ -36,7 +36,8 @@ import p35_img from "./RedHibiscus.jpg";
 import p36_img from "./PhilodendronMicans.jpg";
 import p37_img from "./HawaiianSalmon.jpg";
 import p38_img from "./Schizopetalus.jpg";
-import p39_img from "./Cannabis.jpg";
+// import p39_img from "./Cannabis.jpg";
+import p39_img from "./LemonGrass.jpg";
 import p40_img from "./KanerYellow.jpg";
 
 const PLANTS = [
