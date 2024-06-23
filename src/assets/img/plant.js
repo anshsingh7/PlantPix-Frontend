@@ -17,7 +17,7 @@ import p16_img from "./Periwinkle.jpg";
 import p17_img from "./StarMogra.jpg";
 import p18_img from "./Lotus.jpg";
 import p19_img from "./MysoreMalli.jpg";
-import p20_img from "./Cannabis.jpg";
+import p20_img from "./Marijuana.jpg";
 import p21_img from "./CebuBlue.jpg";
 import p22_img from "./HibiscusVersicolor.jpg";
 import p23_img from "./DaintyPink.jpg";
@@ -192,7 +192,7 @@ const PLANTS = [
   },
   {
     id: 20,
-    name: "Cannabis",
+    name: "Marijuana",
     botanicalName: "Cannabis indica",
     image: p20_img,
     description: "Cannabis, also known as marijuana or weed among other names, is a psychoactive drug from the cannabis plant. Native to Central or South Asia, the cannabis plant has been used as a drug for both recreational and entheogenic purposes and in various traditional medicines for centuries.",
