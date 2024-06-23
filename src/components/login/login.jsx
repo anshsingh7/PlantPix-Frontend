@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, NavLink } from "react-router-dom";
 import {useAuth} from "../../context/auth";
 
 const Login = () => {
@@ -103,12 +103,12 @@ const Login = () => {
             </div>
 
             <div className="text-sm">
-              <a
-                href="/forgotPassword"
+              <NavLink
+                to={"/forgotPassword"}
                 className="font-medium text-main hover:text-gray-900"
               >
                 Forgot your password?
-              </a>
+              </NavLink>
             </div>
           </div>
 
@@ -124,12 +124,12 @@ const Login = () => {
         </form>
         <p className="mt-2 text-center text-sm text-gray-600">
           Or{" "}
-          <a
-            href="./createAccount"
+          <NavLink
+            to={"/createAccount"}
             className="font-medium text-main hover:text-mainDark"
           >
             create an account
-          </a>
+          </NavLink>
         </p>
       </div>
     </div>
