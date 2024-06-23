@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
 
         {/* Login Button */}
-        {/* {auth?.user !== null ?(
+        {auth?.user !== null ?(
           <div className="hidden md:flex justify-between align-middle">
               <img
                 className="rounded-full me-5"
@@ -74,11 +74,11 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="hidden md:flex">
-          <input
+          {/* <input
             type="text"
             placeholder="Search..."
             className="px-3 py-2 rounded-lg border border-gray-300"
-          />
+          /> */}
 
             <NavLink
               to={"/login"}
@@ -89,10 +89,10 @@ const Navbar = () => {
               Logout
             </button>
           </div>
-        )} */}
+        )}
 
         {/* User Icon or Login */}
-        {auth?.user ? (
+        {/* {auth?.user ? (
           <div className="hidden md:flex items-center space-x-4">
             <img
               className="rounded-full"
@@ -130,7 +130,7 @@ const Navbar = () => {
               </svg>
             </NavLink>
           </div>
-        )}
+        )} */}
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
