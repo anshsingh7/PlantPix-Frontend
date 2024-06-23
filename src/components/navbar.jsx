@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="hidden md:flex justify-between align-middle">
               <img
                 className="rounded-full me-5"
-                src={`https://plantpix-backend.onrender.com/api/v1/auth/loginUserPhoto/${userId}`}
+                src={`http://localhost:8000/api/v1/auth/loginUserPhoto/${userId}`}
                 alt=""
                 width={"30px"}
                 height={'20px'}
@@ -96,7 +96,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <img
               className="rounded-full"
-              src={`https://plantpix-backend.onrender.com/api/v1/auth/loginUserPhoto/${userId}`}
+              src={`http://localhost:8000/api/v1/auth/loginUserPhoto/${userId}`}
               alt="User"
               width={"40px"}
               height={"40px"}
