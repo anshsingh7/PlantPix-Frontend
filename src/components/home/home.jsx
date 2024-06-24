@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PLANTS } from "../../assets/img/plant";
-import Slidebar from "./slidebar";
+import Slidebar from "../slidebar";
 import Item from "../plant/item";
 
 const HomePage = () => {
@@ -15,7 +15,7 @@ const HomePage = () => {
               Welcome to the PlantPix
             </h1>
             <p className="mt-4">
-              Select a category from the sidebar to explore more about different types of plants.
+              Select a category from below to explore more about different types of plants.
             </p>
           </div>
           <Slidebar />
@@ -33,21 +33,6 @@ const HomePage = () => {
                       types={item.types}
                     />
                   </NavLink>
-                
-                
-                // {PLANTS.map((item) => (
-                //   <NavLink
-                //     to={`/plants/detail/${item.name}`}
-                //     key={Math.random() * (1000 - 1) + 1}
-                //   >
-                //     <Item
-                //       id={item.id}
-                //       image={item.image}
-                //       name={item.name}
-                //       description={item.description}
-                //       types={item.types}
-                //     />
-                //   </NavLink>
                 ))}
               </div>
             </div>

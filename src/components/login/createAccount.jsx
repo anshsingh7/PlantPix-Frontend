@@ -32,7 +32,7 @@ const CreateAccount = () => {
       const {data} = await axios.post('https://plantpix-backend.onrender.com/api/v1/auth/register', userData);
       if(data?.success){
         console.log(data.success)
-        // navigate('/login');
+        navigate('/login');
       }
     } catch (error) {}
   };

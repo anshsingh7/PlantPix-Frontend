@@ -1,7 +1,8 @@
+import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { PLANTS } from "../../assets/img/plant.js";
 import Item from "./item.jsx";
-import { NavLink, useLocation } from "react-router-dom";
+import Slidebar from "../slidebar.jsx";
 
 const Plant = () => {
   const location = useLocation();
@@ -18,7 +19,8 @@ const Plant = () => {
 
   return (
     <section className="bg-primary px-8">
-      <div className="max_padd_container py-12 xl:py-20">
+      <div className="max_padd_container py-4">
+        <Slidebar/>
         <h2 className="text-2xl font-bold mb-4 text-center">
           Explore Plants With Category
         </h2>
@@ -27,7 +29,7 @@ const Plant = () => {
           find the best plants for your needs.
         </p>
         <h3 className="h3 text-2xl text-center font-semibold">{category}</h3>
-        <img width="75" height="33" src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2019/07/logo-leaf-new-1.png?fit=75%2C33&amp;ssl=1" className="justify-center attachment-large size-large wp-image-2518 h-[33px] md:w-1/8 mx-auto mb-12" alt="Leaflet"></img>
+        <img width="75" height="33" src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2019/07/logo-leaf-new-1.png?fit=75%2C33&amp;ssl=1" className="justify-center attachment-large size-large wp-image-2518 h-[33px] md:w-1/8 mx-auto mb-8" alt="Leaflet"></img>
         <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
           {sortedPlants
             .filter((plant) => plant.types?.includes(category))
